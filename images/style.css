@@ -1,0 +1,112 @@
+img {
+    width: 50px;
+    float: left;
+    border-radius: 60px;
+    margin-right: 5px;
+    padding: 20px;
+   
+}
+
+body {
+    background-color: #48556a;
+    font-family: "Segoe UI", Arial, sans-serif;
+    display: flex;
+    flex-direction: row;
+
+}
+
+p.Line1 {
+    font-weight: bold;
+    float:left;
+    margin-bottom: 0;
+}
+
+p.Line1 + p {
+    display: inline-block;
+    margin-left: 10px;
+    color: #cccccc;
+  }
+  
+.Line2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: flex-end;
+}
+
+.perfil1 {
+    color: #ffffff;
+    background-color: #7541c8;
+    border: 1px solid;
+    border-radius: 20px;
+    margin: 20px;
+    height: 90%;
+    flex-basis: auto;
+
+}
+    
+.perfil2 {
+    color: #ffffff;
+    background-color: #595770;
+    border: 1px solid;
+    border-radius: 20px;
+    width: 500%;
+    height: 90%;
+    margin: 20px;
+     
+}
+.flex-container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: flex-end;
+}
+
+.perfil3 {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 700%;
+    height: 90%;
+    margin: 20px;
+    float: left;
+}
+
+.perfil4 {
+    color: #ffffff;
+    background-color: #19212e;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 20px;
+    height: 90%;
+    flex-basis: auto;
+}
+
+.flex-container3 {
+    display: flex;
+    flex-direction: row;
+    justify-content:  flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: flex-end;
+}
+
+.perfil5 {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 40%;
+    height:90%;
+    margin: 20px;
+}
